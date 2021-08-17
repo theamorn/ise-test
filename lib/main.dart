@@ -68,10 +68,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
     // final value = _sumOfTwo(firstName: 5, lastName: 6);
     final dog = Dog("golden", 5);
-    final dog4 = Dog("golden4", 3);
 
     dog.bark();
-    dog4.bark();
     print("==== dog is $dog");
 
     // switch (aColor) {
